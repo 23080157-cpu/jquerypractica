@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad jQuery UI</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="eva.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script>
+      $(function() {
+        $("#tabs").tabs({ event: "mouseover" });
+        $("#accordion").accordion();
+      });
+    </script>
+</head>
+<body>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Tiro con Arco</a></li>
+    <li><a href="#tabs-2">Basquetbol</a></li>
+    <li><a href="#tabs-3">Béisbol</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>El tiro con arco es un deporte olímpico en el cual se utiliza un arco para disparar flechas. Consiste en acertar lo más cerca del centro de la diana para obtener el máximo número de puntos.</p>
+    <img src="img/arco.gif" style="margin-left: 15%;">
+  </div>
+  <div id="tabs-2">
+    <p>El basquetbol o baloncesto, es un deporte en el cual compiten dos equipos de cinco jugadores cada uno. El objetivo es introducir la pelota (balón) en el aro (cesta o canasta) del equipo contrario, que se encuentra ubicado a 3.05 metros de altura.</p>
+    <img src="img/basquetbol.gif" style="margin-left: 23%;">
+  </div>
+  <div id="tabs-3">
+    <p>El béisbol (del inglés baseball; de base, y ball, 'pelota'), también llamado baseball o juego de pelota, es un deporte de equipo jugado por dos equipos de nueve jugadores cada uno.</p>
+    <img src="img/beisbol.gif" style="margin-left: 20%;">
+  </div>
+</div>
+
+<div id="accordion">
+  <h3>Tiro con Arco</h3>
+  <div>
+   <p>El tiro con arco es uno de los deportes con más historia en la era moderna que aún se practican, y está totalmente unido a la evolución de la civilización. El origen proviene del uso de esta arma como instrumento de caza y como instrumento bélico. Con la aparición de las armas de fuego quedó obsoleto como instrumento profesional de uso general. Como deporte, tiene una historia que se comienza hace miles de años. Como avance cultural, fue comparable al descubrimiento del fuego y a la invención de la rueda.</p>  
+   <p></p>
+   <p>Hasta el momento existen siete modalidades en el tiro con arco, las cuales son:</p>
+   <ol>
+        <li>Tiro con arco sobre diana al aire libre</li>
+        <li>Tiro con arco en sala</li>
+        <li>Tiro de campo</li>
+        <li>Tiro con arco de larga distancia</li>
+        <li>Carrera arco</li>
+        <li>Esquí arco</li>
+        <li>Recorrido de bosque</li>
+   </ol>
+</div>
+  
+  <h3>Basquetbol</h3>
+  <div>
+    <p>El baloncesto (del inglés basketball; de basket, 'canasta', y ball, 'pelota'), también conocido como básquetbol, basquetbol o simplemente básquet,​ es un deporte de equipo, jugado entre dos equipos de cinco jugadores cada uno en cuatro períodos de cuartos de diez minutos cada uno, doce minutos cada cuarto en la NBA. El objetivo del equipo es anotar puntos introduciendo su balón de baloncesto por la canasta, un aro a 3,05 metros sobre la superficie de la pista de juego del que cuelga una red. La puntuación por cada canasta o cesta es de dos o tres puntos, dependiendo de la posición desde la que se efectúa el tiro a la canasta, o de uno, si se trata de un tiro libre por una falta de un jugador contrario. El equipo ganador es el que obtiene el mayor número de puntos.</p>
+    <p></p>
+    <p>El contacto con las manos junto a la pelota debe de ser continuo y de forma consecutiva. Los jugadores, también llamados basquetbolistas o baloncestistas, no pueden trasladarse de un lado a otro sujetando la pelota, sino botándola contra el suelo. El equipo en posesión del balón o atacante, intenta anotar puntos mediante tiros, entradas a canasta o mates, mientras que el equipo defensor busca impedirlo robando la pelota o efectuando tapones. Cuando un tiro hacia la canasta fracasa, los jugadores de ambos equipos intentan atrapar el rebote.</p>
+  </div>
+  
+  <h3>Béisbol</h3>
+  <div>
+    <p>El objetivo del juego es golpear una pelota con un bate (batear), desplazando la pelota a través del campo y correr por el campo interno de tierra (infield) buscando alcanzar la mayor cantidad de bases posibles hasta dar la vuelta a la base desde donde se bateó (home) para lograr anotar el tanto conocido como carrera. Los jugadores defensivos, mientras tanto, buscan la pelota bateada para eliminar al jugador que bateó la pelota o a otros corredores, antes que estos lleguen primero a alguna de las bases o consigan anotar la carrera (véase Reglas para más detalles del juego).</p>
+    <p></p>
+    <p>El equipo que anote más carreras al cabo de los 9 episodios, llamados innings (o entradas) que dura el encuentro, es el que resulta ganador. Si al término de las nueve entradas regulares persiste un marcador igualado en carreras, el encuentro se extiende cuanto sea necesario para que haya un ganador, ya que según las reglas básicas del juego no existe el empate, permitido solo en ligas amateurs e infantiles para limitar el desgaste de los jugadores.</p>
+  </div>
+</div>
+
+
+</body>
+</html>
